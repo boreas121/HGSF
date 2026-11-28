@@ -24,14 +24,14 @@ Welcome to the official implementation of **HGSF** (Hyperbolic Geodesic Secant F
 The pipeline is agnostic to the number of views: two views proceed directly (clustering / classification), and three views (local / neighbor / global H&E embeddings) support **gene expression prediction** on spatial transcriptomics.
 
 <p align="center">
-  <img src="docs/transport_paths.pdf" alt="Transport path comparison" width="90%">
+  <img src="./transport_paths.pdf" alt="Transport path comparison" width="90%">
 </p>
 <p align="center">
   <i>Diffusion starts from cluster-agnostic noise and traverses structure-irrelevant regions; straight-path flow matching follows the Euclidean chord and cuts across low-support gaps; HGSF transports along the hyperbolic geodesic through the shared coarse-grained structure.</i>
 </p>
 
 <p align="center">
-  <img src="docs/framework.pdf" alt="HGSF framework" width="100%">
+  <img src="./framework.pdf" alt="HGSF framework" width="100%">
 </p>
 <p align="center">
   <i>Overview of HGSF. View-specific autoencoders map heterogeneous views into a common latent space; the secant field learns deterministic transport along calibrated geodesics; cross-view consistency, entropy alignment, and CDC provide supervision and stability for the completed representations.</i>
