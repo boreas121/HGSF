@@ -62,7 +62,7 @@ The pipeline is agnostic to the number of views: two views proceed directly (clu
 
 ## 1. ✅ Run
 
-(0) Put your HuggingFace token into `dataset_download_hest1k.py` and `preprocess.py` (see [6.2](#62-huggingface-token)), then:
+Put your HuggingFace token into `dataset_download_hest1k.py` and `preprocess.py` (see [6.2](#62-huggingface-token)), then:
 
 ```shell
 python dataset_download_hest1k.py   # download HEST v1.1.0 -> /data/hest1k_datasets/{her2st,cSCC,PRAD,DLPFC}
