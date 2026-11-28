@@ -290,14 +290,6 @@ Following the SPA protocol, each spot is described by three H&E-derived views ex
 
 The gene panel is a fixed set of ≈ 200 genes shared across all slides: union HVG (2000 per slide, after `normalize_total` + `log1p`) → intersection of the top-300 mean-expressed and top-300 std-expressed genes. Expression is transformed by log2(x+1) and standardized with training-split statistics.
 
-### 5.3 Legacy Multi-View `.mat` Format (Clustering)
-
-The clustering experiments of the paper use conventional multi-view benchmarks packed as single `.mat` files:
-
-- `X`: a MATLAB cell array of view matrices, `X{1}, X{2}, ...`, each of shape `(num_samples, num_dims)`;
-- `Y`: a `(num_samples, 1)` integer label vector.
-
-Missing views are simulated either by `utils.get_mask` (per-view Bernoulli, SPA version) or `utils.get_mask_icdm` (indicator matrix iteratively approaching the exact missing rate), and clustering quality is reported as ACC / NMI / ARI with Hungarian (Munkres) label matching (`utils.evaluation`).
 
 ### 5.4 Evaluation Metrics
 
