@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-config.py -- Unified configuration: dataset registry + global hyperparameters
-             (+ legacy multi-view clustering configs).
-All data paths are anonymized: the unified data root is /data.
+config.py
 """
 import numpy as np
 
