@@ -14,7 +14,7 @@
 
 ***
 
-Welcome to the official implementation of **HGSF** (Hyperbolic Geodesic Secant Flow), an incomplete multi-view representation learning (IMVRL) framework. HGSF recovers missing views by transporting latent representations along **hyperbolic geodesics** instead of Euclidean chords:
+Welcome to the official implementation of **HGSF** (Hyperbolic Geodesic Secant Flow), my TPAMI 2026 work on incomplete multi-view representation learning (IMVRL). HGSF recovers missing views by transporting latent representations along **hyperbolic geodesics** instead of Euclidean chords:
 
 - a **data-calibrated Poincaré ball** provides the transport geometry, so the path follows the tree-like organization that the latent space spontaneously forms during cross-view consistency training;
 - closed-form **Möbius geodesics** serve as transport paths (O(d) per evaluation, no iterative solver, no learnable path parameters);
