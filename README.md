@@ -36,7 +36,7 @@ The pipeline is agnostic to the number of views: two views proceed directly (clu
 
 ### 📑 Table of Contents
 
-- [🔗 Citation](#-citation)
+- [🔗 Overview](#-overview)
 - [1. ✅ Run](#1--run)
   - [1.1 Source code list](#11-source-code-list)
 - [2. 🧮 Main Code](#2--main-code)
