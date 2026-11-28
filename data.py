@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-data.py -- Data loading.
-load_spa_data: SPA three views (local / neighbor / global) + gene expression (main pipeline)
-load_data:     legacy multi-view .mat data (paths anonymized to /data)
+data.py
 """
 import sys
 
